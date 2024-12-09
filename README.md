@@ -6,4 +6,10 @@ High-throughput phenotyping technologies have revolutionised plant science by us
 
 Comparative Frameworks of Euclidean vs. Hyperbolic Mapper Pipelines for Arabidopsis Thaliana Data Analysis. This illustration is bifurcated to detail the separate analytical pathways employed for plant-derived descriptors and high-resolution image datasets, utilising both Euclidean and Hyperbolic spaces. (A) Depicts the Euclidean Mapper pipeline for plant-derived descriptors, starting with UMAP for feature reduction, proceeding through a cubical cover function, and finalising with clustering to form the Mapper graph. (B) Highlights the pathway for image datasets within Euclidean space, where embeddings generated via Euclidean contrastive learning techniques are segmented by a cubical cover and clustered to produce the Mapper graph. The diagram's right segment introduces the Hyperbolic Mapper strategy, (C) for plant-derived descriptors, incorporating hyperbolic UMAP for feature reduction onto the Poincar'e Ball, followed by our proprietary Poincar'e Ball cover function and hyperbolic clustering to yield the Mapper graph. (D) Illustrates the approach for image datasets in Hyperbolic space, where Hyperbolic contrastive learning yields Poincar'e Disk embeddings, subsequently processed using the identical cover function and clustering mechanism as in (C). This juxtaposition underscores the nuanced but significant distinctions and synergies between Euclidean and Hyperbolic Mapper methodologies in uncovering complex patterns and phenotypic variations within Arabidopsis datasets.
 
+## Note on Code and Datasets Availability
+Please note that this repository does not contain the complete source code or datasets of our project. It is designed primarily to showcase various components of our pipeline. If you are interested in accessing the full code and dataset, it is available upon request. To request access, please contact us directly, providing your affiliation and the purpose for which you intend to use the code.
+
+## Contacts
+Plant oriented and dataset questions: nuria.de@upol.cz Machine leanring oriented questions: jan.zdrazil@vsb.cz
+
 
