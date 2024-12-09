@@ -1,0 +1,19 @@
+hyper_params:
+  # We dont need to define filter params
+  # as in datasets/ImageVisPbBYOL.csv are embbedings from BYOL directly
+  Cover:
+    n_clusters: 154
+    overlap_threshold: 0.36184459718009946
+
+  Cluster:
+    eps: 0.15227861925393205
+    min_samples: 200
+
+mapper_params:
+  path_to_data: 'datasets/ImageVisPbSimCLR.csv'
+  layout: 'kamada_kawai'
+  layout_dim: 2
+  node_scale: 15
+
+random_seed: 61
+space: 'poincareball'

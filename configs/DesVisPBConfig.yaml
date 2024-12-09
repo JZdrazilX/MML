@@ -1,0 +1,28 @@
+hyper_params:
+  Filter:
+    n_neighbors: 303
+    metric: 'cosine'
+    min_dist: 0.45911607470666155
+    spread: 0.6500282894531771
+    n_epochs: 500
+    random_state: 48
+    n_components: 2
+  
+  Cover:
+    n_clusters: 194
+    overlap_threshold: 0.31259492382798537
+    #precomputed_centers: 'None'
+
+  Cluster:
+    eps: 0.6177554929748442
+    min_samples: 49
+    dimension: 2
+
+mapper_params:
+  path_to_data: 'datasets/DesVisPE.csv'
+  layout: 'kamada_kawai'
+  layout_dim: 2
+  node_scale: 15
+
+random_seed: 9
+space: 'poincareball'

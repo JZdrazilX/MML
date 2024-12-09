@@ -1,0 +1,28 @@
+hyper_params:
+  Filter:
+    n_neighbors: 303
+    metric: 'cosine'
+    min_dist: 0.45911607470666155
+    spread: 0.6500282894531771
+    n_epochs: 500
+    random_state: 48
+    n_components: 2
+  
+  Cover:
+    kind: 'balanced'
+    n_intervals: 14
+    overlap_frac: 0.3927117905956751
+
+  Cluster:
+    min_cluster_size: 154
+    cluster_selection_method: 'leaf'
+    metric: 'euclidean'
+
+mapper_params:
+  path_to_data: 'datasets/DesVisPE.csv'
+  layout: 'fruchterman_reingold'
+  layout_dim: 2
+  node_scale: 15
+
+random_seed: 0
+space: 'euclidean'

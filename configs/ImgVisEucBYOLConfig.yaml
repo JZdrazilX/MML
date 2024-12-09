@@ -1,0 +1,21 @@
+hyper_params:
+  # We dont need to define filter params
+  # as in datasets/ImageVisEucBYOL.csv are embbedings from BYOL directly
+  Cover:
+    kind: 'balanced'
+    n_intervals: 15
+    overlap_frac: 0.34808438658772267
+
+  Cluster:
+    min_cluster_size: 48
+    cluster_selection_method: 'eom'
+    metric: 'euclidean'
+
+mapper_params:
+  path_to_data: 'datasets/ImageVisEucBYOL.csv'
+  layout: 'fruchterman_reingold'
+  layout_dim: 2
+  node_scale: 15
+
+random_seed: 10
+space: 'euclidean'
